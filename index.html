@@ -71,9 +71,9 @@ $ git checkout gh-pages
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <!DOCTYPE html>
-<html>
-  <head>
-    <style>
+    <html>
+    <head>
+     <style>
       #map_canvas {
         width: 500px;
         height: 400px;
@@ -91,65 +91,11 @@ $ git checkout gh-pages
         var map = new google.maps.Map(map_canvas, map_options)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-  </head>
+       </script>
+     </head>
   <body>
     <div id="map_canvas"></div>
   </body>
 </html>
   </body>
 </html>
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>KmlFile</name>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Placemark>
-		<name>Hotel Planalto </name>
-		<LookAt>
-			<longitude>-45.28049903083733</longitude>
-			<latitude>-20.09885482358774</latitude>
-			<altitude>0</altitude>
-			<heading>-0.003867269863529056</heading>
-			<tilt>17.92124804113586</tilt>
-			<range>434.7269190199378</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-45.28100278138988,-20.09875772656224,0</coordinates>
-		</Point>
-	</Placemark>
-</Document>
-</kml>
-
